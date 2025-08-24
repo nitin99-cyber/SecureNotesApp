@@ -1,0 +1,7 @@
+A mini Java Project to give hands on expierence in File Handling and some concepts of Java with AES.
+Main Features of projects are:
+                                    1. Add Note
+                                    2. View Note
+                                    3. Update Note
+                                    4. Delete Note
+                                    5. Encrypt/Decrypt notes before saving/reading
