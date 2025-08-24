@@ -16,6 +16,7 @@ ensuring privacy and security.
   -**Language**: Java
   **Encryption**: AES(Advanced Encryption Standard)
   **Storage**: Local File System
+  ** IDE used**:  IntelliJ
 
 ## How to RUN
   1. Clone Repository
