@@ -56,6 +56,8 @@ ensuring privacy and security.
       3. Search notes by Titile
       4. Export/Import encrypted notes
 
+   **If you want to contribute and help me in making future improvements, feel free to contact me.**
+
 
 ## Author
 
