@@ -4,7 +4,7 @@ import java.io.*;
 
 public class SecureNotesApp {
     static Scanner sc = new Scanner(System.in);
-    static ArrayList<Note> notes = new ArrayList<>();
+    static ArrayList<Note> notes = new ArrayList<>();        // used to store text notes
     static int counter = 1;
 
     public static void addNote() {
@@ -14,8 +14,8 @@ public class SecureNotesApp {
             System.out.print("Enter content: ");
             String content = sc.nextLine();
 
-            // Encrypt before storing
-            String encryptedContent = CryptoUtils.encrypt(content);
+           
+            String encryptedContent = CryptoUtils.encrypt(content);        // Encrypting before storing
 
             notes.add(new Note(counter++, title, encryptedContent));
             saveNotesToFile();
@@ -43,7 +43,7 @@ public class SecureNotesApp {
     public static void updateNote() {
         System.out.print("Enter the ID to update: ");
         int id = sc.nextInt();
-        sc.nextLine(); // consume newline
+        sc.nextLine(); 
         for (Note note : notes) {
             if (note.sr == id) {
                 System.out.print("Enter new title: ");
