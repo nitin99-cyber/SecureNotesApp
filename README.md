@@ -4,7 +4,7 @@ ensuring privacy and security.
 
 
 ## Features
-1. **Add Note** - Create new note(encrypted before saving).
+1. **Add Note**  - Create new note(encrypted before saving).
 2. **View Note** - Displays Notes automatically after Decrypting it.
 3. **Update Note** - Modifying Existing Notes securely.
 4. **Delete Note** - Removes notes by ID.
@@ -14,9 +14,12 @@ ensuring privacy and security.
 
 ## Tech STack
   -**Language**: Java
+  
   **Encryption**: AES(Advanced Encryption Standard)
+  
   **Storage**: Local File System
-  ** IDE used**:  IntelliJ
+  
+  **IDE used**:  IntelliJ
 
 ## How to RUN
   1. Clone Repository
@@ -25,9 +28,11 @@ ensuring privacy and security.
         https://github.com/nitin99-cyber/SecureNotesApp.git
         cd SecureNotesApp
   2. Compile the Code:
+       ```bash
         java SecureNotesApp.java CryptoUtils.java
      
   3. Run the Program:
+     ```bash
       java SecureNotesApp
 
 
